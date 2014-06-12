@@ -1,0 +1,21 @@
+LCP notes
+
+5NGE was duplicated. Removed the one at 
+"5NGE": {
+            "defaultValue": 0,
+            "driverinfo": { "id":"mbslave", "item":"n:3.4" }
+        },
+        
+last 12RWE
+
+
+Configure in script
+SG5N.INH.IND
+SG5N.INH.SET.CTL
+SG5N.INH.RESET.CTL
+
+There is only one stop and callon ctl per track at an interlocking. Registered mulitple tags with the same item name. Make sure this works ok. There should not be an issue since the software was designed to allow multiple tags to register same items.
+
+TRACK inhibits
+P1-INHIBIT.SET.CTL
+P1-INHIBIT.RESET.CTL
